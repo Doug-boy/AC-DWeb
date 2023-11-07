@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+    padding: 20px;
+}
+
+.unordered-list, .ordered-list {
+    margin-left: 20px;
+}
+
+.form {
+    margin: 10px 0;
+}
+
+.form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-list img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+video, audio {
+    width: 100%;
+}
+
+/* Estilos específicos para os elementos de áudio e vídeo */
+audio, video {
+    margin-top: 10px;
+}
+
+/* Estilos para a lista de imagens */
+.image-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-list li {
+    text-align: center;
+}
+
+/* Estilos para a etiqueta de seleção de estado civil */
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilos para o botão de favoritos */
+.favorite-link {
+    text-decoration: none;
+}
+
+.favorite-button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.favorite-button:hover {
+    background-color: #005f8a;
+}

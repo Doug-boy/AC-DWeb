@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    background-color: #FF5733;
+    padding: 15px;
+}
+
+.grid-container > .item {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 26px;
+}
+
+@media screen and (min-width: 200px) {
+    .grid-container {
+        grid-template-columns: auto auto auto;
+    }
+}
